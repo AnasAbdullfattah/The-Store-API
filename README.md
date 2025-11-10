@@ -70,17 +70,17 @@ The API will be available at: http://localhost:5000/
 
 🌐 API Endpoints (Product Module)
 Assuming the base path is /api/products, the API supports standard REST operations for the product resource
-
+```
 Method,Endpoint,Description
 GET,/api/products,Retrieve a list of all products
 GET,/api/products/:id,Retrieve a specific product by its ID
 POST,/api/products,Create a new product
 PUT,/api/products/:id,Update an existing product by its ID
 DELETE,/api/products/:id,Delete a specific product by its ID
-
+```
 📂 Project Structure
 The project follows the MVC pattern for clean organization:
-
+```
 Backend/
 ├── config/
 │   └── db.js         # Database connection logic
@@ -91,6 +91,6 @@ Backend/
 ├── routes/
 │   └── product.routes.js   # Defines API endpoints and links to controllers
 └── server.js           # Application entry point (server initialization)
-
+```
 📜 License
 This project is licensed under the MIT License
